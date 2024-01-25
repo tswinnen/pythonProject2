@@ -17,6 +17,8 @@ import random
 
 
     # on demande à l'ordinateur de choisir un nombre
+    # TODO: préciser la borne supérieure du jeu
+
 nb_cherche = random.randint(1,10)
 print("j'ai choisi", nb_cherche )
 
@@ -24,6 +26,10 @@ print("j'ai choisi", nb_cherche )
 nb_propose = input()
 print('vous avez entré le nb', nb_propose)
     # l'oridnateur nous dit si c'est plus grand ou plus petit
+    # TODO: proposer plusieurs essais à l'utilisateur
+    # TODO: dire à l'utilisateur si l'essai est plus grand, plus petit ... jusqu'à ce que ce soit correct
+    # TODO: plus chaud, plus froid
+    # TODO: faire tout cela dans une "vraie" fenêtre.
 if (int(nb_propose) == int(nb_cherche)) :
     print('bravo')
 
